@@ -1,0 +1,31 @@
+{
+  "name": "trading-signals-platform",
+  "version": "1.0.0",
+  "description": "Professional Trading Signals Platform with Real-time Signal Delivery",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently &quot;cd backend && npm start&quot; &quot;cd frontend && npm start&quot;",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start",
+    "build-frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "trading",
+    "signals",
+    "forex",
+    "stocks",
+    "real-time",
+    "websocket"
+  ],
+  "author": "NinjaTech AI",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.4"
+  }
+}
